@@ -1,5 +1,9 @@
 clear all;
 global t t1 x x0 u;
-t1 = 9;
-x0 = 10;
+t1 = 4.5;
+x0 = -8;
 Um = fminsearch(@fmsfun_lab2, 1);
+figure('color', 'white');
+grid on; hold on;
+plot(t,x,t,u);
+legend('x(t)','u(t)')
