@@ -7,4 +7,3 @@ function f = odefun_lab2(t,x)
     end
     f = -0.15 * x + u;
 end
-

@@ -6,4 +6,5 @@ Um = fminsearch(@fmsfun_lab2, 1);
 figure('color', 'white');
 grid on; hold on;
 plot(t,x,t,u);
-legend('x(t)','u(t)')
+legend('x(t)','u(t)');
+fprintf("Найденное Um = %.3f\n", Um);
